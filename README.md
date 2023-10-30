@@ -1,5 +1,5 @@
 # TrabantLamp
-Světélko ze zadního světla trabanta
+Světélko ze zadního světla trabanta  
 Ovládání zařízení lze vypozorovat z následujícího videa: https://www.youtube.com/shorts/cp-2GQ39OJE
 
 # Struktura
