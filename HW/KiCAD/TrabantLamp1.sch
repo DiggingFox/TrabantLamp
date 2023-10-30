@@ -1,0 +1,341 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Title"
+Date "date"
+Rev "Rev"
+Comp "Ondrej Fidra"
+Comment1 "Com1"
+Comment2 "Com2"
+Comment3 "Com3"
+Comment4 "Com4"
+$EndDescr
+$Comp
+L ma_obecna:LED_4pin D1
+U 1 1 5F533C69
+P 2950 2200
+F 0 "D1" H 2968 2417 50  0000 C CNN
+F 1 "RED_B" H 2968 2326 50  0000 C CNN
+F 2 "LED_SMD:LED_Kingbright_AAA3528ESGCT" H 2950 2200 50  0001 C CNN
+F 3 "~" H 2950 2200 50  0001 C CNN
+	1    2950 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ma_obecna:LED_4pin D2
+U 1 1 5F546B4D
+P 2950 2600
+F 0 "D2" H 2968 2817 50  0000 C CNN
+F 1 "RED_B" H 2968 2726 50  0000 C CNN
+F 2 "LED_SMD:LED_Kingbright_AAA3528ESGCT" H 2950 2600 50  0001 C CNN
+F 3 "~" H 2950 2600 50  0001 C CNN
+	1    2950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ma_obecna:LED_4pin D3
+U 1 1 5F547152
+P 2950 3000
+F 0 "D3" H 2968 3217 50  0000 C CNN
+F 1 "RED_B" H 2968 3126 50  0000 C CNN
+F 2 "LED_SMD:LED_Kingbright_AAA3528ESGCT" H 2950 3000 50  0001 C CNN
+F 3 "~" H 2950 3000 50  0001 C CNN
+	1    2950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ma_obecna:LED_4pin D4
+U 1 1 5F5473DD
+P 2950 3400
+F 0 "D4" H 2968 3617 50  0000 C CNN
+F 1 "RED_B" H 2968 3526 50  0000 C CNN
+F 2 "LED_SMD:LED_Kingbright_AAA3528ESGCT" H 2950 3400 50  0001 C CNN
+F 3 "~" H 2950 3400 50  0001 C CNN
+	1    2950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ma_obecna:LED_4pin D5
+U 1 1 5F5477F3
+P 3700 2200
+F 0 "D5" H 3718 2417 50  0000 C CNN
+F 1 "RED_F" H 3718 2326 50  0000 C CNN
+F 2 "LED_SMD:LED_Kingbright_AAA3528ESGCT" H 3700 2200 50  0001 C CNN
+F 3 "~" H 3700 2200 50  0001 C CNN
+	1    3700 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ma_obecna:LED_4pin D6
+U 1 1 5F547C3C
+P 3700 2600
+F 0 "D6" H 3718 2817 50  0000 C CNN
+F 1 "RED_F" H 3718 2726 50  0000 C CNN
+F 2 "LED_SMD:LED_Kingbright_AAA3528ESGCT" H 3700 2600 50  0001 C CNN
+F 3 "~" H 3700 2600 50  0001 C CNN
+	1    3700 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ma_obecna:LED_4pin D7
+U 1 1 5F547EC7
+P 3700 3000
+F 0 "D7" H 3718 3217 50  0000 C CNN
+F 1 "RED_F" H 3718 3126 50  0000 C CNN
+F 2 "LED_SMD:LED_Kingbright_AAA3528ESGCT" H 3700 3000 50  0001 C CNN
+F 3 "~" H 3700 3000 50  0001 C CNN
+	1    3700 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L ma_obecna:LED_4pin D8
+U 1 1 5F548337
+P 3700 3400
+F 0 "D8" H 3718 3617 50  0000 C CNN
+F 1 "RED_F" H 3718 3526 50  0000 C CNN
+F 2 "LED_SMD:LED_Kingbright_AAA3528ESGCT" H 3700 3400 50  0001 C CNN
+F 3 "~" H 3700 3400 50  0001 C CNN
+	1    3700 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ma_obecna:LED_4pin D9
+U 1 1 5F548739
+P 3700 3800
+F 0 "D9" H 3718 4017 50  0000 C CNN
+F 1 "RED_F" H 3718 3926 50  0000 C CNN
+F 2 "LED_SMD:LED_Kingbright_AAA3528ESGCT" H 3700 3800 50  0001 C CNN
+F 3 "~" H 3700 3800 50  0001 C CNN
+	1    3700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2200 3200 2200
+Wire Wire Line
+	3200 3600 3150 3600
+Wire Wire Line
+	3150 3500 3200 3500
+Connection ~ 3200 3500
+Wire Wire Line
+	3200 3500 3200 3600
+Wire Wire Line
+	3150 3400 3200 3400
+Connection ~ 3200 3400
+Wire Wire Line
+	3200 3400 3200 3500
+Wire Wire Line
+	3150 3200 3200 3200
+Connection ~ 3200 3200
+Wire Wire Line
+	3200 3200 3200 3400
+Wire Wire Line
+	3150 3100 3200 3100
+Connection ~ 3200 3100
+Wire Wire Line
+	3200 3100 3200 3200
+Wire Wire Line
+	3150 3000 3200 3000
+Wire Wire Line
+	3200 2200 3200 2300
+Connection ~ 3200 3000
+Wire Wire Line
+	3200 3000 3200 3100
+Wire Wire Line
+	3150 2800 3200 2800
+Connection ~ 3200 2800
+Wire Wire Line
+	3200 2800 3200 3000
+Wire Wire Line
+	3150 2700 3200 2700
+Connection ~ 3200 2700
+Wire Wire Line
+	3200 2700 3200 2800
+Wire Wire Line
+	3150 2600 3200 2600
+Connection ~ 3200 2600
+Wire Wire Line
+	3200 2600 3200 2700
+Wire Wire Line
+	3150 2400 3200 2400
+Connection ~ 3200 2400
+Wire Wire Line
+	3200 2400 3200 2600
+Wire Wire Line
+	3150 2300 3200 2300
+Connection ~ 3200 2300
+Wire Wire Line
+	3200 2300 3200 2400
+Wire Wire Line
+	3900 2200 3950 2200
+Wire Wire Line
+	3950 2200 3950 2300
+Wire Wire Line
+	3950 4000 3900 4000
+Wire Wire Line
+	3900 3900 3950 3900
+Connection ~ 3950 3900
+Wire Wire Line
+	3950 3900 3950 4000
+Wire Wire Line
+	3900 3800 3950 3800
+Connection ~ 3950 3800
+Wire Wire Line
+	3950 3800 3950 3900
+Wire Wire Line
+	3900 3600 3950 3600
+Connection ~ 3950 3600
+Wire Wire Line
+	3950 3600 3950 3800
+Wire Wire Line
+	3900 3500 3950 3500
+Connection ~ 3950 3500
+Wire Wire Line
+	3950 3500 3950 3600
+Wire Wire Line
+	3900 3400 3950 3400
+Connection ~ 3950 3400
+Wire Wire Line
+	3950 3400 3950 3500
+Wire Wire Line
+	3900 3200 3950 3200
+Connection ~ 3950 3200
+Wire Wire Line
+	3950 3200 3950 3400
+Wire Wire Line
+	3900 3100 3950 3100
+Connection ~ 3950 3100
+Wire Wire Line
+	3950 3100 3950 3200
+Wire Wire Line
+	3900 3000 3950 3000
+Connection ~ 3950 3000
+Wire Wire Line
+	3950 3000 3950 3100
+Wire Wire Line
+	3900 2800 3950 2800
+Connection ~ 3950 2800
+Wire Wire Line
+	3950 2800 3950 3000
+Wire Wire Line
+	3900 2700 3950 2700
+Connection ~ 3950 2700
+Wire Wire Line
+	3950 2700 3950 2800
+Wire Wire Line
+	3900 2600 3950 2600
+Connection ~ 3950 2600
+Wire Wire Line
+	3950 2600 3950 2700
+Wire Wire Line
+	3900 2300 3950 2300
+Connection ~ 3950 2300
+Wire Wire Line
+	3950 2300 3950 2400
+Wire Wire Line
+	3900 2400 3950 2400
+Connection ~ 3950 2400
+Wire Wire Line
+	3950 2400 3950 2600
+Wire Wire Line
+	2800 3400 2750 3400
+Wire Wire Line
+	2750 3400 2750 3000
+Wire Wire Line
+	2750 2200 2800 2200
+Wire Wire Line
+	2800 2600 2750 2600
+Connection ~ 2750 2600
+Wire Wire Line
+	2750 2600 2750 2200
+Wire Wire Line
+	2800 3000 2750 3000
+Connection ~ 2750 3000
+Wire Wire Line
+	2750 3000 2750 2600
+Wire Wire Line
+	3550 2200 3500 2200
+Wire Wire Line
+	3500 2200 3500 2600
+Wire Wire Line
+	3500 3800 3550 3800
+Wire Wire Line
+	3550 3400 3500 3400
+Connection ~ 3500 3400
+Wire Wire Line
+	3500 3400 3500 3800
+Wire Wire Line
+	3550 3000 3500 3000
+Connection ~ 3500 3000
+Wire Wire Line
+	3500 3000 3500 3400
+Wire Wire Line
+	3550 2600 3500 2600
+Connection ~ 3500 2600
+Wire Wire Line
+	3500 2600 3500 3000
+Connection ~ 3500 3800
+Connection ~ 2750 3400
+Wire Wire Line
+	3950 2200 3950 2150
+Connection ~ 3950 2200
+Wire Wire Line
+	3200 2150 3200 2200
+Connection ~ 3200 2200
+Wire Wire Line
+	2750 3500 2750 3400
+Wire Wire Line
+	3500 3900 3500 3800
+Wire Wire Line
+	2750 4250 2750 3800
+Wire Wire Line
+	3500 4250 2750 4250
+Wire Wire Line
+	3500 4200 3500 4250
+$Comp
+L Device:R R2
+U 1 1 5F55FF49
+P 3500 4050
+F 0 "R2" H 3430 4004 50  0000 R CNN
+F 1 "R" H 3430 4095 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 3430 4050 50  0001 C CNN
+F 3 "~" H 3500 4050 50  0001 C CNN
+	1    3500 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F55EAC8
+P 2750 3650
+F 0 "R1" H 2680 3604 50  0000 R CNN
+F 1 "R" H 2680 3695 50  0000 R CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2680 3650 50  0001 C CNN
+F 3 "~" H 2750 3650 50  0001 C CNN
+	1    2750 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VCC #PWR0102
+U 1 1 5F5660F4
+P 3950 2150
+F 0 "#PWR0102" H 3950 2000 50  0001 C CNN
+F 1 "VCC" H 3965 2323 50  0000 C CNN
+F 2 "" H 3950 2150 50  0001 C CNN
+F 3 "" H 3950 2150 50  0001 C CNN
+	1    3950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5F56590F
+P 3200 2150
+F 0 "#PWR0101" H 3200 2000 50  0001 C CNN
+F 1 "VCC" H 3215 2323 50  0000 C CNN
+F 2 "" H 3200 2150 50  0001 C CNN
+F 3 "" H 3200 2150 50  0001 C CNN
+	1    3200 2150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
